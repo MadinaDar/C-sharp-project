@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, all people!");
+﻿int x = int.Parse(Console.ReadLine());
+int y = 2 *  x * x - 4 * x + 6;
+Console.WriteLine (y);
