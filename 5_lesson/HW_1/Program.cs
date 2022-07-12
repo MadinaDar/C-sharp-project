@@ -39,10 +39,10 @@ int EvenNum(int[] arr)
     return count;
 }
 
-int[] arr_1 = MassNums(15, 100, 251);
+int[] arr_1 = MassNums(10, 100, 251);
 Print(arr_1);
 Console.WriteLine(EvenNum(arr_1));
 
-int[] arr_2 = MassNums(6, 100, 251);
+int[] arr_2 = MassNums(4, 100, 251);
 Print(arr_2);
 Console.WriteLine(EvenNum(arr_2));
